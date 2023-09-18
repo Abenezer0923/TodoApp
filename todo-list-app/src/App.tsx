@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import Lists from './components/List';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import Home from './Pages/Home'; // Correct import path
-import About from './Pages/About'; // Correct import path
+import Home from './Pages/Home'; 
+import About from './Pages/About'; 
 
 const App: React.FC = () => {
   const [todos, setTodos] = useState<string[]>([]);
